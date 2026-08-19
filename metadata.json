@@ -1,0 +1,6 @@
+{
+  "name": "BORA BORA Bandra",
+  "description": "Pan-Asian dining, electric cocktails, and late-night nightlife in the heart of Waterfield Road, Bandra West, Mumbai.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

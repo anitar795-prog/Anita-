@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-serif {
+    font-family: 'Fraunces', serif;
+  }
+  .font-sans {
+    font-family: 'Manrope', sans-serif;
+  }
+}
+
+body {
+  background-color: #0d0b09;
+  color: #f3ead9;
+  font-family: 'Manrope', sans-serif;
+}
+
+@keyframes drift {
+  from { transform: translate(0, 0); }
+  to { transform: translate(-30px, 40px); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: .5; }
+  50% { opacity: 1; }
+}
+
+.animate-drift {
+  animation: drift 14s ease-in-out infinite alternate;
+}
+
+.animate-pulse-slow {
+  animation: pulse 3.4s ease-in-out infinite;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0b09;
+}
+::-webkit-scrollbar-thumb {
+  background: #c9a961;
+  border-radius: 0px;
+}
+
+
+
